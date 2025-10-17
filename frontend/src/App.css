@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-mainBg: #f9f4f0;
+  --color-mainColor: #ff5500;
+  --color-secBg: #ffc38a70;
+  --color-thirBg: #fbcfa4;
+  --color-bgone: #fbdec29e;
+}
+
+select option:hover {
+  background-color: #ff5500;
+  color: white;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-container,
+  .print-container * {
+    visibility: visible;
+  }
+  .print-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    height: auto;
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .print-container {
+    position: absolute;
+    /* left: 10px;
+    top: 10px; */
+    padding: 10px;
+  }
+}
