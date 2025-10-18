@@ -1,5 +1,5 @@
 🍴 Restaurant Management System – Admin Dashboard
-
+------------------------------------
 📋 Project Overview
 The Restaurant Management System is a full-stack web application designed to streamline and centralize restaurant operations. It empowers administrators to manage menus, categories, orders, customers, billing, and feedback through an intuitive and responsive dashboard interface.
 This system enhances operational efficiency, improves customer service, and provides real-time insights into restaurant performance.
