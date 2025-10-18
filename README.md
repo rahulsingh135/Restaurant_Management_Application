@@ -98,7 +98,7 @@ git clone https://github.com/your-repo/restaurant-management-system.git
 Configure your MySQL database:  
   Database Name: library_db
 
-  Install dependencies: 
+  Install dependencies:       
   ---for backend---  
     cd backend  
     npm install  
