@@ -5,6 +5,7 @@ The Restaurant Management System is a full-stack web application designed to str
 This system enhances operational efficiency, improves customer service, and provides real-time insights into restaurant performance.
 
 🚀 Key Features
+--------------------
 🔐 Admin Authentication
 - Secure login with username and password
 - Prevents unauthorized access to the admin dashboard
@@ -79,26 +80,31 @@ This system enhances operational efficiency, improves customer service, and prov
 - Rating
 
 🛠️ Tech Stack 
+----------------------
 
-Frontend: React.js / HTML / CSS / JavaScript / Tailwind css
-Backend: Node.js / Express.js
-Database: PostgreSQL
-Tools: Axios, REST API, JSON
+| Layer                 | Technology                      |
+| --------------------- | ------------------------------- |
+| **Frontend**          | React.js, HTML, CSS, JavaScript |
+| **Backend**           | Node.js, Express.js             |
+| **Database**          | PostgreSQL                      |
+| **Tools & Libraries** | Axios, REST API, JSON           |
 
 
 📦 Installation & Setup
+----------------------
 - Clone the repository:
 git clone https://github.com/your-repo/restaurant-management-system.git
 
-Configure your MySQL database:
-Database Name: library_db
+Configure your MySQL database:  
+  Database Name: library_db
 
-- Install dependencies:
-cd backend
-npm install
-npm run dev
-
-cd ../frontend
-npm install
-npm run dev
+  Install dependencies: 
+  ---for backend---  
+    cd backend  
+    npm install  
+    npm run dev  
+  ---for frontend---  
+    cd ../frontend  
+    npm install  
+    npm run dev  
 
